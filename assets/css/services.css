@@ -1,0 +1,480 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400&family=Playfair+Display:wght@400;500;600;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.gridlayout{
+    width:95%;
+    margin: auto;
+    /* height: 100vh;
+    background-color: antiquewhite; */
+}
+header{
+    background-color: white;
+    position: sticky;
+}
+.headerlogo{
+    height: 33px;
+    width: 33px;
+    margin-top: 6px;
+}
+.headercall{
+    height: 20px;
+    width: 20px;
+    margin-top: 15px;
+    margin-left: 23px;
+}
+.subdiveone h1{
+    margin-left: 20px;
+    font-family: 'Playfair Display', serif;
+}
+.subdiveone h4{
+    margin-top: 20px;
+    margin-left: 15px;
+    font-family: 'Manrope', sans-serif;
+    font-weight: normal;
+    font-size: 12px;
+}
+.subdiveone{
+    display: flex;
+}
+.subdivtwo{
+    display: flex;
+    justify-content: space-evenly;
+    font-family: 'Manrope', sans-serif;
+}
+.maindiv li{
+    list-style-type: none;
+    margin-top: 15px;
+    margin-right: 50px;
+    font-size: 13px;
+}
+.aboutlink,.contactlink,.homelink,.locationslink{
+    text-decoration: none;
+    color: black;
+}
+.serviceslink{
+    text-decoration: none;
+    color: #8F19FF;
+    font-weight: bold;
+}
+.aboutlink:hover,.contactlink:hover,.homelink:hover,.locationslink:hover{
+    color: #8F19FF;
+    font-weight: bold;
+}
+.maindivul{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 14px;
+}
+.maindiv{
+    display: flex;
+    justify-content: space-between;
+    padding: 4px 0px;
+}
+.subdivtwo button{
+    background: url('../images/headerbuttonicon.png');
+    background-repeat: no-repeat;
+    text-align: center;
+    width: 102px;
+    padding: 0px 25px;
+    font-size: 12px;
+    background-position: 6px 6px;
+    background-size: 10px;
+    height: 25px;
+    color: white;
+    background-color: #8F19FF;
+    border: 1px solid #8F19FF;
+    margin-top: 10px;
+    font-family: 'Manrope', sans-serif;
+}
+
+.herobg{
+    background: url(../images/heroBackground.png);
+    height: 650px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 1px;
+}
+.herocontent{
+    padding: 130px 0px 0px 67px;
+}
+.herocontent h1{
+    width: 38%;
+    font-size: 57px;
+    padding: 22px 0px;
+}
+.herocontent p{
+    font-family: 'Manrope', sans-serif;
+}
+.herocontent img{
+    width: 14px;
+    height: 12px;
+}
+.herocontent .herofirstline{
+    font-size: 9px;
+    margin-left: 21px;
+    margin-top: -15px;
+    color: #BF028A;
+    font-weight: 600;
+}
+.herocontent .herothirdline{
+    font-weight: 100;
+    font-size: 10px;
+    width: 30%;
+    margin-top: 11px;
+}
+.herocontent button{
+    background: url('../images/headerbuttonicon.png');
+    background-repeat: no-repeat;
+    text-align: center;
+    width: 132px;
+    padding: 0px 15px 0px 25px;
+    font-size: 10px;
+    background-position: 6px 6px;
+    background-size: 10px;
+    height: 25px;
+    color: white;
+    background-color: #8F19FF;
+    border: 1px solid #8F19FF;
+    margin-top: 48px;
+    font-family: 'Manrope', sans-serif;
+}
+.servicediv p{
+    color: #AC037C;
+    font-family: 'Manrope', sans-serif;
+    text-align: center;
+    margin-top: 55px;
+  
+}
+.servicediv h2{
+    color: #AC037C;
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    margin: 19px 0px 52px 0px;
+}
+.service1box,.service2box,.service3box,.service4box,.service5box{
+    display: flex;
+    justify-content: center;
+    gap:25px;
+    margin: 25px 0px;
+}
+.servicediv .servicename{
+    font-family: 'Playfair Display', serif;
+    font-size: 19px;
+    font-weight: 500;
+}
+.servicediv .servicedesc{
+    color: #555555;
+    font-family: 'Manrope', sans-serif;
+    font-size: 11px;
+    font-weight: 300;
+    margin: 3px 0px 12px 0px;
+}
+.servicediv li{
+    list-style-type: none;
+}
+.service1img,.service2img,.service3img,.service4img,.service5img{
+    width: 25%;
+}
+.service1content,.service2content,.service3content,.service4content,.service5content{
+    width: 28%;
+    margin-top: 43px;
+}
+.servicediv button{
+    text-align: center;
+    width: 126px;
+    padding: 3px 10px;
+    font-size: 10px;
+    height: 35px;
+    color: white;
+    background-color: #8F19FF;
+    border: 1px solid #8F19FF;
+    margin-top: 42px;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 500;
+}
+.servicediv span{
+    float: right;
+}
+button:hover{
+    background-color: #a03ffc;
+    /* border: 1px solid #a60ac9; */
+}
+/* footer css */
+.footersub1 h1{
+    margin-top: -43px;
+    margin-left: 44px;
+}
+.footerbg{
+    background-color: #5324FF;
+}
+.footersocialIcon{
+    height: 30px;
+    margin-top: 7px;
+}
+.footersub1{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    padding-top: 10px;
+    font-family: 'Playfair Display', serif;
+}
+.footersub2 h2{
+    color:white;
+    font-family: 'Playfair Display', serif;
+    font-size: 18px;
+    font-weight: 600;
+}
+.footersub2 li{
+    list-style-type: none;
+    color:white;
+    font-family: 'Manrope', sans-serif;
+    font-size: 10px;
+    font-weight: lighter;
+    margin-top: 13px;
+}
+
+.footersub2 a{
+    text-decoration: none;
+    color:white
+}
+.footersub2{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 16px;
+    padding: 17px 117px 33px;
+}
+.contactusdiv ul{
+    margin-top: -30px;
+    margin-left: 21px;
+}
+.footercalllogo{
+    width: 12px;
+    margin-top: 11px;
+}
+.footermaillogo{
+    margin-top: 16px;
+    width: 13px;
+}
+.footercontactcontent P{
+    color: white;
+    font-family: 'Manrope', sans-serif;
+    font-size: 10px;
+    font-weight: lighter;
+    margin-top: -16px;
+    margin-left: 20px;
+}
+.copywritediv{
+    background-color: #4714FF;
+}
+.copywritediv h6{
+    color: white;
+    font-family: 'Manrope', sans-serif;
+    text-align: center;
+    padding: 10px 0px;
+    font-weight: 400;
+}
+
+/* mobile responsive */
+@media screen and (max-width:300px) {
+    
+}
+@media screen and (max-width:500px){
+    /* header */
+    .subdiveone h1 {
+        margin-left: 6px;
+        font-size: 9px;
+        margin-top: 9px;
+    }
+    .maindiv{
+        justify-content: space-around;
+    }
+    .headerlogo {
+        height: 18px;
+        width: 18px;
+        margin: 4px 0px;
+    }
+    .maindivul{
+        margin-right: 3px;
+    }
+    .headercall {
+        height: 11px;
+        width: 11px;
+        margin-top: 11px;
+        margin-left: 5px;
+    }
+    .subdiveone h4{
+        font-size: 5px;
+        margin-top: 14px;
+        margin-left: 5px;
+    }
+    .maindiv li{
+        margin-top: 11px;
+        margin-right: 4px;
+        font-size: 7px;
+    }
+    .subdivtwo button{
+        font-size: 7px;
+        width: 61px;
+        height: 16px;
+        padding: 3px 16px;
+        background-position: 3px 1px;
+        margin-top: 7px;
+    }
+    /* herosection */
+    .herobg{
+        height: 222px;
+    }
+    .herocontent h1{
+        font-size: 15px;
+        padding: 0px;
+    }
+    .herocontent {
+        padding: 40px 0px 0px 25px;
+    }
+    .herocontent .herofirstline{
+        font-size: 6px;
+        margin-left: 11px;
+        margin-top: -11px;
+    }
+    .herocontent img {
+        width: 7px;
+        height: 6px;
+        
+    }
+    .herocontent .herothirdline{
+        font-size: 6px;
+    }
+    .herocontent button{
+        font-size: 6px;
+        width: 77px;
+        background-size: 7px;
+        height: 16px;
+        background-position: 4px 4px;
+        padding: 0px 5px 0px 16px;
+        margin-top: 17px;
+    }
+    .servicediv h2 {
+        font-size: 14px;
+        margin: 19px 0px 26px 0px;
+    }
+    .servicediv p {
+        margin-top: 29px;
+        font-size: 11px;
+    }
+    .servicediv .servicename {
+        font-size: 8px;
+    }
+    .servicediv .servicedesc {
+        font-size: 4px;
+        font-weight: 400;
+        margin: 3px 0px 4px 0px;
+    }
+    .servicediv button {
+        text-align: center;
+        width: 84px;
+        padding: 2px 2px;
+        font-size: 7px;
+        height: 20px;
+        margin-top: 7px;
+    }
+    .servicediv img{
+        height: 132px;
+        width: 118px;
+        margin-top: 42px;
+    }
+    .service1box, .service2box, .service3box, .service4box, .service5box {
+        gap: 30px;
+    }
+    /* footer */
+    .footersub2 {
+        display: block;
+        padding: 3px 144px;
+        text-align: center;
+        margin-top: 0px;
+    }
+    .footersub1 h1 {
+        margin-top: -28px;
+        margin-left: 28px;
+        font-size: 20px;
+    }
+    .footersocialIcon {
+        height: 25px;
+        margin-top: 3px;
+    }
+    #footerid hr{
+        width: 80% !important;
+        margin-left: 41px !important;
+    }
+    
+    .footermaillogo {
+        margin-left: -111px;
+    }
+    .footercalllogo {
+        margin-left: -93PX;
+    }
+    .footersub2 h2{
+        margin-top: 11px;
+        font-size: 15px;
+    }
+    .footercontactcontent P {
+        font-size: 9px;
+    }
+
+    
+}
+/* ipad responsive */
+@media screen and (min-width:700px) and (max-width:850px){
+    /* header */
+    .herobg{
+        height: 543px;
+    }
+    .subdiveone h1 {
+        margin-left: 13px;
+        font-size: 16px;
+        margin-top: 10px;
+    }
+    .maindiv li{
+        margin-right: 17px;
+    }
+    .subdiveone h4{
+        font-size: 9px;
+    }
+    .headercall {
+        margin-top: 13px;
+        margin-left: 19px;
+    }
+    .headerlogo {
+        margin: 4px 0px;
+    }
+    .herocontent {
+       padding: 101px 0px 0px 36px;
+       
+    }
+    .servicediv .servicename {
+        font-size: 12px;
+    }
+    .herocontent h1 {
+       width: 31%;
+       font-size: 39px;
+    }
+    .servicediv button {
+        width: 104px;
+        font-size: 8px;
+        height: 24px;
+        margin-top: 9px;
+    }
+    .servicediv img{
+        margin-top: 43px;
+    }
+    .servicediv .servicedesc {
+        font-size: 8px;
+    }
+    #footerid hr{
+       width: 71% !important;
+       margin-left: 119px !important;
+    }
+}

@@ -1,0 +1,694 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400&family=Playfair+Display:wght@400;500;600;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.gridlayout{
+    width:95%;
+    margin: auto;
+    /* height: 100vh;
+    background-color: antiquewhite; */
+}
+header{
+    background-color: white;
+    position: sticky;
+}
+.headerlogo{
+    height: 33px;
+    width: 33px;
+    margin-top: 6px;
+}
+.headercall{
+    height: 20px;
+    width: 20px;
+    margin-top: 15px;
+    margin-left: 23px;
+}
+.subdiveone h1{
+    margin-left: 20px;
+    font-family: 'Playfair Display', serif;
+}
+.subdiveone h4{
+    margin-top: 20px;
+    margin-left: 15px;
+    font-family: 'Manrope', sans-serif;
+    font-weight: normal;
+    font-size: 12px;
+}
+.subdiveone{
+    display: flex;
+}
+.subdivtwo{
+    display: flex;
+    justify-content: space-evenly;
+    font-family: 'Manrope', sans-serif;
+}
+.maindiv li{
+    list-style-type: none;
+    margin-top: 15px;
+    margin-right: 50px;
+    font-size: 13px;
+}
+.aboutlink,.contactlink,.serviceslink,.locationslink{
+    text-decoration: none;
+    color: black;
+}
+.homelink{
+    text-decoration: none;
+    color: #8F19FF;
+    font-weight: bold;
+}
+.aboutlink:hover,.contactlink:hover,.serviceslink:hover,.locationslink:hover{
+    color: #8F19FF;
+    font-weight: bold;
+}
+.maindivul{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 14px;
+}
+.maindiv{
+    display: flex;
+    justify-content: space-between;
+    padding: 4px 0px;
+}
+.subdivtwo button{
+    background: url('../images/headerbuttonicon.png');
+    background-repeat: no-repeat;
+    text-align: center;
+    width: 102px;
+    padding: 0px 25px;
+    font-size: 12px;
+    background-position: 6px 6px;
+    background-size: 10px;
+    height: 25px;
+    color: white;
+    background-color: #8F19FF;
+    border: 1px solid #8F19FF;
+    margin-top: 10px;
+    font-family: 'Manrope', sans-serif;
+}
+
+.herobg{
+    background: url(../images/heroBackground.png);
+    height: 650px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 1px;
+}
+.herocontent{
+    padding: 130px 0px 0px 67px;
+}
+.herocontent h1{
+    width: 30%;
+    font-size: 57px;
+    padding: 22px 0px;
+}
+.herocontent p{
+    font-family: 'Manrope', sans-serif;
+}
+.herocontent img{
+    width: 14px;
+    height: 12px;
+}
+.herocontent .herofirstline{
+    font-size: 9px;
+    margin-left: 21px;
+    margin-top: -15px;
+    color: #BF028A;
+    font-weight: 600;
+}
+.herocontent .herothirdline{
+    font-weight: 100;
+    font-size: 10px;
+    width: 30%;
+    margin-top: 11px;
+}
+.herocontent button{
+    background: url('../images/headerbuttonicon.png');
+    background-repeat: no-repeat;
+    text-align: center;
+    width: 132px;
+    padding: 0px 15px 0px 25px;
+    font-size: 10px;
+    background-position: 6px 6px;
+    background-size: 10px;
+    height: 25px;
+    color: white;
+    background-color: #8F19FF;
+    border: 1px solid #8F19FF;
+    margin-top: 48px;
+    font-family: 'Manrope', sans-serif;
+}
+.aboutusindexleft img{
+    width: 100%;
+    
+}
+.aboutusindexright .herofirstline{
+    font-size: 9px;
+    color: #BF028A;
+    font-family: 'Manrope', sans-serif;
+    margin: -16px 0px 0px 20px;
+    font-weight: 600;
+    
+}
+.aboutusindexright .herothirdline{
+    font-weight: 100;
+    font-size: 13px;
+    width: 73%;
+    padding: 36px 0px;
+    font-family: 'Manrope', sans-serif;
+}
+.aboutusindexright .img1{
+    width: 14px;
+    height: 12px;
+}
+.aboutusindexright h1{
+    width: 58%;
+    font-size: 44px;
+    margin-top: 12px;
+}
+.aboutusindexcontent{
+    display: flex;
+    justify-content: space-around;
+    margin: 40px 40px;
+}
+
+.aboutusindexright{
+    width: 47%;
+    margin-top: 51px
+}
+.aboutusindexright .img2{
+    height: 165px;
+}
+.aboutusindexleft img:hover{
+    content: url(../images/indexvar.png) ;
+}
+.owl-carousel .owl-item img{
+    width: 20% !important;
+}
+.testimonialone ,.testimonialtwo,.testimonialthree,.testimonialfour{
+    width: 360px;
+    height: 250px;
+    box-shadow: 5px 10px #888888;
+    /* border: 1px solid gray; */
+    position:relative;
+    margin: 0px 72px;
+}
+.testimonialcontent{
+    margin: 37px 0px;
+    text-align: center;
+}
+.testimonialoneprofile,.testimonialtwoprofile,.testimonialthreeprofile,.testimonialfourprofile{
+    background-color:#431EFC;
+    width:360px;
+    height: 80px;
+    position: absolute;
+    bottom:0px;
+}
+.testimonialone h6,.testimonialtwo h6,.testimonialthree h6,.testimonialfour h6{
+    margin: -48px 0px 0px 89px;
+    font-family: 'Playfair Display', serif;
+    color: white;
+    font-size: 14px;
+    margin-bottom: 2px;
+}
+
+.testimonialoneprofile p,.testimonialtwoprofile p,.testimonialthreeprofile p,.testimonialfourprofile p{
+    margin-left: 89px;
+    font-family: 'Manrope', sans-serif;
+    color: white;
+    font-size: 10px;
+}
+.testprofimgdiv,.testprofimg2div{
+    display: flex;
+    justify-content: flex-start;
+    gap: 4px;
+}
+.testprofimgdiv .profile1starimg{
+    width: 20%;
+    height: 15px;
+    margin: 14px 0px 0px -8px;
+}
+.testimonialoneprofile .profile1lines,.testimonialtwoprofile .profile2lines,.testimonialthreeprofile .profile1lines,.testimonialfourprofile .profile2lines{
+    float: right;
+    margin: -58px 16px;
+}
+.testimonialonecontent p,.testimonialtwocontent p,.testimonialthreecontent p,.testimonialfourcontent p{
+    padding: 40px 36px;
+    font-family: 'Manrope', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+}
+.testimonialcontent p{
+    color: #431EFC;
+    font-family: 'Manrope', sans-serif;
+}
+.testimonialcontent h2{
+    color: #431EFC;
+    font-family: 'Playfair Display', serif;
+}
+.testprofimg2div .profile2starimg{
+    width: 20% !important;
+    height: 15px;
+    margin: 14px 0px 0px -8px;
+}
+.testimonialbox{
+    width: 72% !important;
+    margin: 0px auto;
+    /* display: flex;
+    justify-content: center;
+    gap: 107px; */
+}
+.testprofimgdiv .profile1img,.testprofimg2div .profile2img{
+    height: 62px;
+    padding: 10px;
+}
+.homeblog{
+    margin: 100px 0px;
+}
+.homeblogcards{
+    display: flex;
+    justify-content: space-evenly;
+}
+.homeblogcards .card1,.card2,.card3{
+    width: 274px;
+    height: 398px;
+    border: 1px solid #CAC1C1;
+}
+
+.homeblogcards .card1:hover,.card2:hover,.card3:hover{
+    box-shadow: 2px 2px #CAC1C1;
+}
+.homeblogdiv p{
+    color: #431EFC;
+    font-family: 'Manrope', sans-serif;
+}
+.homeblogdiv h2{
+    color: #431EFC;
+    font-family: 'Playfair Display', serif;
+}
+.homeblogdiv{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.card1 .card1line1,.card2 .card2line1,.card3 .card3line1{
+    color: #F12993;
+    font-family: 'Manrope', sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    margin: 4px 0px 4px 10px;
+}
+.card1 .card1line2,.card2 .card2line2,.card3 .card3line2{
+    color: #BF028A;
+    font-family: 'Playfair Display', serif;
+    font-weight: bolder;
+    margin: 8px 10px 4px 10px;
+}
+.card1 .card1line3,.card2 .card2line3,.card3 .card3line3{
+    font-family: 'Manrope', sans-serif;
+    font-size: 13px;
+    font-weight: 300;
+    width: 85%;
+    margin: 10px 10px 0px 10px;
+}
+.homeblogbutton button{
+    text-align: center;
+    width: 116px;
+    padding: 3px 10px;
+    font-size: 10px;
+    height: 35px;
+    color: white;
+    background-color: #8F19FF;
+    border: 1px solid #8F19FF;
+    margin-top: 10px;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 500;
+}
+.homeblogbutton{
+    display: flex;
+    justify-content: center;
+    margin: 30px auto;
+}
+button:hover{
+    background-color: #a03ffc;
+    border: 1px solid #a03ffc;
+}
+/* footer css */
+.footersub1 h1{
+    margin-top: -43px;
+    margin-left: 44px;
+}
+.footerbg{
+    background-color: #5324FF;
+}
+.footersocialIcon{
+    height: 30px;
+    margin-top: 7px;
+}
+.footersub1{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    padding-top: 10px;
+    font-family: 'Playfair Display', serif;
+}
+.footersub2 h2{
+    color:white;
+    font-family: 'Playfair Display', serif;
+    font-size: 18px;
+    font-weight: 600;
+}
+.footersub2 li{
+    list-style-type: none;
+    color:white;
+    font-family: 'Manrope', sans-serif;
+    font-size: 10px;
+    font-weight: lighter;
+    margin-top: 13px;
+}
+
+.footersub2 a{
+    text-decoration: none;
+    color:white
+}
+.footersub2{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 16px;
+    padding: 17px 117px 33px;
+}
+.contactusdiv ul{
+    margin-top: -30px;
+    margin-left: 21px;
+}
+.footercalllogo{
+    width: 12px;
+    margin-top: 11px;
+}
+.footermaillogo{
+    margin-top: 16px;
+    width: 13px;
+}
+.footercontactcontent P{
+    color: white;
+    font-family: 'Manrope', sans-serif;
+    font-size: 10px;
+    font-weight: lighter;
+    margin-top: -16px;
+    margin-left: 20px;
+}
+.copywritediv{
+    background-color: #4714FF;
+}
+.copywritediv h6{
+    color: white;
+    font-family: 'Manrope', sans-serif;
+    text-align: center;
+    padding: 10px 0px;
+    font-weight: 400;
+}
+
+
+/* mobile responsive */
+@media screen and (max-width:300px) {
+    
+}
+@media screen and (max-width:500px){
+    .subdiveone h1 {
+        margin-left: 6px;
+        font-size: 9px;
+        margin-top: 9px;
+    }
+    .headerlogo {
+        height: 18px;
+        width: 18px;
+        margin: 4px 0px;
+    }
+    .maindivul{
+        margin-right: 3px;
+    }
+    .headercall {
+        height: 11px;
+        width: 11px;
+        margin-top: 11px;
+        margin-left: 5px;
+    }
+    .subdiveone h4{
+        font-size: 5px;
+        margin-top: 14px;
+        margin-left: 5px;
+    }
+    .maindiv li{
+        margin-top: 11px;
+        margin-right: 4px;
+        font-size: 7px;
+    }
+    .subdivtwo button{
+        font-size: 7px;
+        width: 61px;
+        height: 16px;
+        padding: 3px 16px;
+        background-position: 3px 1px;
+        margin-top: 7px;
+    }
+    .herobg{
+        height: 222px;
+    }
+    .herocontent h1{
+        font-size: 15px;
+        padding: 0px;
+    }
+    .herocontent {
+        padding: 40px 0px 0px 25px;
+    }
+    .herocontent .herofirstline{
+        font-size: 6px;
+        margin-left: 11px;
+        margin-top: -11px;
+    }
+    .herocontent img {
+        width: 7px;
+        height: 6px;
+        
+    }
+    .herocontent .herothirdline{
+        font-size: 6px;
+    }
+    .herocontent button{
+        font-size: 6px;
+        width: 77px;
+        background-size: 7px;
+        height: 16px;
+        background-position: 4px 4px;
+        padding: 0px 5px 0px 16px;
+        margin-top: 17px;
+    }
+    /*  */
+    .aboutusindexcontent{
+        margin: 13px 40px;
+    }
+    .aboutusindexright{
+        margin-top: 14px;
+    }
+    .aboutusindexright h1{
+        font-size: 9px;
+        margin-top: 3px;
+    }
+    .aboutusindexright .herofirstline{
+        font-size: 6px;
+        margin-left: 11px;
+        margin-top: -12px
+    }
+    .aboutusindexright .herothirdline{
+        font-size: 4px;
+        padding: 3px 0px;
+    }
+    .aboutusindexright .img1{
+        width: 8px;
+        height: 8px;
+    }
+    .aboutusindexright .img2{
+        height: 29px;
+    }
+    .aboutusindexleft img{
+        width: 106%;
+        height: 167px;
+    }
+    .indexphotogridcontent img{
+        width: 90%;
+    }
+    .testimonialone, .testimonialtwo,.testimonialthree,.testimonialfour {
+        width: 186px;
+        box-shadow: 2px 1px #888888;
+        height: 114px;
+        margin: 0px 25px;
+    }
+    .testimonialtwocontent p,.testimonialonecontent p ,.testimonialthreecontent p,.testimonialfourcontent p{
+        padding: 13px 23px;
+        font-size: 6px;
+    }
+    .testimonialone h6,.testimonialtwo h6,.testimonialthree h6,.testimonialfour h6{
+        font-size: 5px;
+        margin-left: 48px;
+        margin-top: -22px;
+    }
+    .testimonialcontent {
+        margin: 11px 0px;
+    }
+    .testimonialoneprofile p,.testimonialtwoprofile p,.testimonialthreeprofile p,.testimonialfourprofile p{
+        font-size: 3px;
+        margin-left: 48px;
+    }
+    .testprofimg2div .profile2starimg,.testprofimgdiv .profile1starimg {
+        width: 19%;
+        height: 7px;
+        margin: 7px 0px 0px -8px;
+    }
+    .testimonialoneprofile,.testimonialtwoprofile,.testimonialthreeprofile,.testimonialfourprofile{
+        width: 186px;
+        height: 43px;
+    }
+    .testprofimgdiv .profile1img, .testprofimg2div .profile2img {
+        height: 26px;
+        padding: 7px;
+    }
+    .testimonialoneprofile .profile1lines, .testimonialtwoprofile .profile2lines ,.testimonialthreeprofile .profile1lines,.testimonialfourprofile .profile2lines{
+        margin: -21px 13px;
+        height: 20px;
+        width: 20px;
+    }
+    .testimonialbox{
+        justify-content: space-around;
+        gap: 10px;
+    }
+    .card1 .card1line1, .card2 .card2line1, .card3 .card3line1 {
+        font-size: 6px;
+    }
+    .card1 .card1line2, .card2 .card2line2, .card3 .card3line2 {
+        font-size: 10px;
+    }
+    .card1 .card1line3, .card2 .card2line3, .card3 .card3line3 {
+        font-size: 8px;
+    }
+    .homeblogcards .card1, .card2, .card3 {
+        width: 47%;
+        height: 228px;
+        margin: 13px auto;
+    }
+    .homeblogcards {
+        display: block;
+    }
+    .homeblogcards img{
+        height: 100px;
+        width: 100%;
+    }
+    .homeblogdiv{
+        margin-bottom: 18px;
+    }
+    .homeblog {
+        margin: 17px 0px;
+    }
+    /* footer */
+    .footersub2 {
+        display: block;
+        padding: 3px 144px;
+        text-align: center;
+        margin-top: 0px;
+    }
+    .footersub1 h1 {
+        margin-top: -28px;
+        margin-left: 28px;
+        font-size: 20px;
+    }
+    .footersocialIcon {
+        height: 25px;
+        margin-top: 3px;
+    }
+    #footerid hr{ 
+        width: 80% !important;
+        margin-left: 41px !important;
+    }
+    .footermaillogo {
+        margin-left: -111px;
+    }
+    .footercalllogo {
+        margin-left: -93PX;
+    }
+    .footersub2 h2{
+        margin-top: 11px;
+        font-size: 15px;
+    }
+    .footercontactcontent P {
+        font-size: 9px;
+    }
+    .testimonialbox{
+        width: 60% !important;
+    }
+}
+/* ipad responsive */
+@media screen and (min-width:700px) and (max-width:850px){
+    .herobg{
+        height: 543px;
+    }
+    /* header */
+    .subdiveone h1 {
+        margin-left: 13px;
+        font-size: 16px;
+        margin-top: 10px;
+    }
+    .maindiv li{
+        margin-right: 17px;
+    }
+    .subdiveone h4{
+        font-size: 9px;
+    }
+    .headerlogo {
+        margin: 4px 0px;
+    }
+    .headercall {
+        margin-top: 13px;
+        margin-left: 19px;
+    }
+    .herocontent {
+        padding: 101px 0px 0px 36px;
+        
+    }
+    .herocontent h1 {
+        width: 31%;
+        font-size: 39px;
+    }
+    .aboutusindexright {
+        margin-top: 32px;
+    }
+    .aboutusindexright h1 {
+        width: 79%;
+        font-size: 23px;
+        margin-top: 6px;
+    }
+    .aboutusindexright .herothirdline {
+        font-size: 8px;
+        padding: 9px 0px;
+    }
+    .aboutusindexright .img2 {
+        height: 106px;
+    }
+    .testimonialone,.testimonialtwo,.testimonialthree,.testimonialfour{
+        margin: 0px 32px;
+    }
+    .testimonialbox{
+        width: 52% !important;
+    }
+    .homeblogcards {
+        gap: 9px;
+    }
+    #footerid hr{
+        width: 71% !important;
+        margin-left: 119px !important;
+    }
+    
+    
+
+}
